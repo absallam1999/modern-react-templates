@@ -1,0 +1,80 @@
+.dashboard-friends{
+    .container{
+        display: flex;
+        flex-direction: column;
+        transition: all 1s ease;
+        animation: fadein 1s ease-in-out;
+        .header{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+          h2{
+            color: var(--main);
+            font-size: 30px;
+            text-align: right;
+          }
+        }
+        .friends{
+            padding: 0 10px;
+            height: 630px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-wrap: wrap;
+            overflow-X: auto;
+            &::-webkit-scrollbar {
+                background-color: transparent;
+              }            
+            .friend-box{
+                width: 200px;
+                height: 200px;
+                margin: 5px;
+                padding: 10px 5px;
+                background-color: var(--main);
+                border-radius: 7px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: all 0.2s ease-in-out;
+                .friend-img{
+                    background-color: #485868;
+                    border-radius: 25px;
+                    padding: 0 2px;
+                    img{
+                        width: 50px;
+                    }
+                }
+                .friend-name{
+                    color: var(--gray);
+                    p{
+                        font-weight: 300;
+                        font-size: 16px;
+                    }
+                }
+                .social-links{
+                    color: #485868;
+                    .fa-brands{
+                        padding: 0 5px;
+                        &:hover{
+                            color: var(--gray);
+                        }
+                    }
+                }
+                &:hover{
+                    color: #87a4bd;
+                    background-color: transparent;
+                    border:1px solid var(--main);
+                    p{
+                        color: var(--main);
+                    }
+                    .fa-brands:hover{
+                        color: var(--main);
+                    }
+                }
+            }
+        }
+    }
+}

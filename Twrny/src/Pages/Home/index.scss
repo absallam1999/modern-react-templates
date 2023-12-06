@@ -1,0 +1,183 @@
+.home {
+  .container {
+    margin-top: -20px;
+    background-color: var(--main);
+    .row {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .main-text {
+        width: 50%;
+        margin: 80px 30px;
+        padding: 20px;
+        h2 {
+          color: var(--light);
+          font-weight: 700;
+          transition: all 0.2s ease-in-out;
+          .motion{
+              animation: fadein 1s ease-in-out;
+          }
+        }
+        p {
+          font-size: 20px;
+          font-weight: 300;
+          color: var(--light);
+        }
+        .analytics {
+          .row {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            span {
+              width: 100%;
+              padding: 20px;
+              .fa-light {
+                font-size: 18px;
+                color: var(--secondary);
+              }
+              p {
+                display: inline;
+                font-size: 14px;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+        button {
+            width: 30%;
+            padding: 10px;
+            border-radius: 7px;
+            border: 1px solid var(--secondary);
+            background-color: var(--secondary);
+            color: var(--dark);
+            font-size: 20px;
+            font-weight: 500;
+            cursor: pointer;
+            &:hover {
+              border: 1px solid var(--secondary);
+              color: var(--secondary);
+              background-color: transparent;
+            }
+          }
+        }
+      .main-img {
+        margin: 80px;
+      }
+    }
+  }
+  .section {
+    width: 100%;
+    .row {
+      display: flex;
+      justify-content: space-between;
+      margin: 50px;
+      .section-text {
+        padding: 25px 0;
+        width: 50%;
+        margin: 10px;
+        h2 {
+          color: var(--main);
+          font-weight: 700;
+        }
+        p {
+          color: var(--main);
+          font-weight: 400;
+          font-size: 16px;
+          padding: 5px;
+        }
+        button {
+          padding: 10px;
+          border: none;
+          color: var(--dark);
+          border-radius: 7px;
+          border: 1px solid var(--secondary);
+          background-color: var(--secondary);
+          font-size: 16px;
+          font-weight: bold;
+          cursor: pointer;
+          &:hover {
+            background-color: transparent;
+            border: 1px solid var(--secondary);
+            color: var(--secondary);
+          }
+        }
+      }
+      .section-img {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        img {
+          margin-top: 25px;
+          height: 400px;
+        }
+      }
+    }
+  }
+  .section-fw {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #e9eaec;
+    color: var(--main);
+    text-align: center;
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+    }
+    p {
+      width: 40%;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .row {
+      width: 70%;
+      display: flex;
+      justify-content: space-around;
+      span {
+        width: 200px;
+        border: 1px solid var(--main);
+        border-radius: 7px;
+        padding: 10px;
+        .fa-light {
+          margin-top: 10px;
+          font-size: 24px;
+        }
+        p {
+          width: 100%;
+        }
+        &:hover {
+          border: none;
+          background-color: var(--main);
+          .fa-light {
+            background-color: transparent;
+            color: var(--secondary);
+          }
+          p {
+            color: var(--secondary);
+          }
+        }
+      }
+    }
+    button {
+      margin: 40px 0 0 0;
+      padding: 10px;
+      border: none;
+      color: var(--dark);
+      border-radius: 7px;
+      border: 1px solid var(--secondary);
+      background-color: var(--secondary);
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      &:hover {
+        background-color: transparent;
+        border: 1px solid var(--secondary);
+        color: var(--secondary);
+      }
+    }
+  }
+}

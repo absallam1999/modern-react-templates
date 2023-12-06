@@ -1,0 +1,84 @@
+.dashboard-settings{
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s ease;
+        animation: fadein 1s ease-in-out;
+        .header{
+          padding: 10px;
+          h2{
+            color: var(--main);
+            font-size: 30px;
+            text-align: right;
+            }
+        }
+        .row{
+            margin: 40px;
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            .info-form{
+                width: 40%;
+                h3{
+                    color: var(--main);
+                }
+                .first-form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 22px;
+                    input{
+                        width: 300px;
+                        padding: 10px;
+                        border-radius: 7px;
+                    }
+                    button{
+                        width: 100px;
+                        padding: 10px;
+                        border-radius: 15px;
+                        border: 1px solid var(--main);
+                        background-color: var(--main);
+                        color: var(--light);
+                        &:hover {
+                          background-color: transparent;
+                          color: var(--main);
+                        }
+                    }
+                }
+            }
+            .social-form{
+                width: 40%;
+                h3{
+                    color: var(--main);
+                }
+                .second-form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    label{
+                        color: var(--main);
+                        font-size: 18px;
+                    }
+                    input{
+                        width: 300px;
+                        padding: 10px;
+                        border-radius: 7px;
+                    }
+                    button{
+                        width: 100px;
+                        padding: 10px;
+                        border-radius: 15px;
+                        border: 1px solid var(--main);
+                        background-color: transparent;
+                        color: var(--main);
+                        &:hover {
+                            background-color: var(--main);
+                            color: var(--light);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
