@@ -2,10 +2,10 @@
 ## Twrny is a platform to connect talent people with each other
 ## Demo: [Preview Link](https://develop-me.org)
 
-## Tools:
-1. FontAwesome
-2. Sass
-3. Reactjs
-4. Axios
+## Template Tools:
+1. Figma
+2. FontAwesome
+3. Sass
+4. Reactjs
 
 ## Created By: Absallam
