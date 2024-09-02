@@ -3,9 +3,9 @@
 ## Demo: [Preview Link](https://develop-me.org)
 
 ## Template Tools:
-1. Figma
-2. FontAwesome
-3. Sass
-4. Reactjs
+  ### 1. Figma
+  ### 2. FontAwesome
+  ### 3. Sass
+  ### 4. Reactjs
 
-## Created By: Absallam
+## Created By: (Absallam)[https://github.com/absallam1999]
