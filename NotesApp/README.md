@@ -1,7 +1,6 @@
 # Notes App
-<br/>
+
 ## Notes App Front-End Template created with Reactj and Sass
-<br/>
 ## Source: [Preview Link](https://github.com/MohamedAbsallam/NotesApp)
 
 ## Template Tools:
