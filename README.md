@@ -4,11 +4,11 @@
 ## Source: [Preview Link](https://github.com/absallam1999/modern-react-templates)
 
 ## Used Tools:
-1.Figma
-2. FontAwesome
-3. Reactjs
-4. React Native
-5. Nextjs
-6. Sass
+1.Figma<br/>
+2. FontAwesome<br/>
+3. Reactjs<br/>
+4. React Native<br/>
+5. Nextjs<br/>
+6. Sass<br/>
 
 ## Created By: Absallam
