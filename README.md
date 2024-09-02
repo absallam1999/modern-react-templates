@@ -6,9 +6,7 @@
 ## Used Tools:
 ### 1. Figma<br/>
 ### 2. FontAwesome<br/>
-### 3. Reactjs<br/>
-### 4. React Native<br/>
-### 5. Nextjs<br/>
+### 3. JSX <br/>
 ### 6. Sass<br/>
 ### 7. Bootstrap
 
