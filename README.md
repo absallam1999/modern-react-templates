@@ -1,6 +1,6 @@
-# Modern React.js, ReactNative, Nextjs Templates
+# Modern Templates
 
-## Modern Templates Ready to Download and Modify
+## Modern React.js, ReactNative, Next.js Templates Ready to Download and Modify
 ## Source: [Preview Link](https://github.com/absallam1999/modern-react-templates)
 
 ## Used Tools:
@@ -10,5 +10,6 @@
 4. React Native<br/>
 5. Nextjs<br/>
 6. Sass<br/>
+7. Bootstrap
 
 ## Created By: Absallam
