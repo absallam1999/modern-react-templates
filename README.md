@@ -4,7 +4,7 @@
 ## Source: [Preview Link](https://github.com/absallam1999/modern-react-templates)
 
 ## Used Tools:
-1.Figma<br/>
+1. Figma<br/>
 2. FontAwesome<br/>
 3. Reactjs<br/>
 4. React Native<br/>
