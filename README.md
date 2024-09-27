@@ -1,6 +1,7 @@
 # Modern React.js Templates
 
-## Modern Templates and Components Ready to Download and Modify (Reactjs, ReactNative, Nextjs)
+## Modern Responsive Reactjs Templates and Components Ready to Download and Modify 
+## Reusable for (Reactjs, ReactNative, Nextjs) Projects
 ## Source: [github](https://github.com/absallam1999/modern-react-templates)
 
 ## Used Tools:
