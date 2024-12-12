@@ -3,7 +3,7 @@
 ## Modern Responsive Templates and Components Ready for Download and Modify Reusable for (Reactjs, ReactNative, Nextjs) Projects
 ## Source: [github](https://github.com/absallam1999/modern-react-templates)
 
-## Used Tools:
+## Tools:
 . Figma<br/>
 . FontAwesome<br/>
 . JSX <br/>
